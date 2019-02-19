@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background: #f2f2f2;
+}
+
+.send {
+  width: 100%;
+  position: relative
+}
+
+.sendTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.sendTerm:focus{
+  color: #00B4CC;
+}
+
+.sendButton {
+  position: absolute;  
+  right: -50px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the send bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,20 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to Url Shortener!
+  </h1>
+</div>
+
+<div class="wrap">
+  <div class="send">
+     <input #urlInput class="sendTerm" placeholder="Paste a link to shorten it">
+     <button (click)="add(urlInput.value);" class="sendButton">
+       Send
+    </button>
+  </div>
+  <div style="margin-top: 50px">
+    <label>{{shortenUrl}}</label>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
